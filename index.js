@@ -28,6 +28,8 @@ function burgerBtnClick() {
         document.querySelector('#burgersBtn').style.color = '#FFFFFF';
         document.querySelector('#sidesBtn').style.background = '#EFF6FF';
         document.querySelector('#sidesBtn').style.color = '#5FA5F9';
+        document.querySelector('#drinksBtn').style.background = '#EFF6FF';
+        document.querySelector('#drinksBtn').style.color = '#5FA5F9';
     } 
     else {
         document.querySelector('#burgersList').style.display = 'block';
